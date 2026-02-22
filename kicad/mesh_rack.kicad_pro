@@ -633,6 +633,14 @@
     [
       "1f829158-d71f-4c0f-9ad2-f5e91ba9345f",
       "LoRa"
+    ],
+    [
+      "4d1c41ec-2cb3-4398-bb3d-82732e7dc7c2",
+      "Expansion 1"
+    ],
+    [
+      "4ef789f0-4b95-4ee5-83a0-fc6a0ad336cb",
+      "Expansion 2"
     ]
   ],
   "text_variables": {}
