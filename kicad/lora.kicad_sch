@@ -1082,6 +1082,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 99.06) (xy 106.68 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d29be8c-8c64-46e7-9263-c41718cfb41f")
+	)
+	(wire
+		(pts
 			(xy 121.92 85.09) (xy 121.92 90.17)
 		)
 		(stroke
@@ -1109,6 +1119,36 @@
 			(type default)
 		)
 		(uuid "b77c1cc6-0f90-4f4f-8093-d51fc709c071")
+	)
+	(wire
+		(pts
+			(xy 106.68 77.47) (xy 109.22 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b80ca560-5517-4e54-aaee-49fc0abad8d7")
+	)
+	(wire
+		(pts
+			(xy 139.7 99.06) (xy 106.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0aebaf8-01c6-4790-b2eb-fb4ed4c823cd")
+	)
+	(wire
+		(pts
+			(xy 139.7 80.01) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47c30ff-a215-4bab-ba2b-2cfb8915b3dc")
 	)
 	(wire
 		(pts
@@ -1150,27 +1190,6 @@
 		)
 		(uuid "f1c6edf0-1697-43e4-95fd-c86036580927")
 	)
-	(wire
-		(pts
-			(xy 82.55 77.47) (xy 109.22 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f95c1ed2-09af-44c6-b998-8cc52c7950e0")
-	)
-	(hierarchical_label "DIO2"
-		(shape input)
-		(at 139.7 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "28cddc4b-ccc4-4a60-bd61-5d4a8db09a17")
-	)
 	(hierarchical_label "NSS"
 		(shape input)
 		(at 82.55 59.69 180)
@@ -1182,7 +1201,7 @@
 		)
 		(uuid "309f289b-c7d6-41fc-900d-5262af6211f5")
 	)
-	(hierarchical_label "IO2"
+	(hierarchical_label "RXEN"
 		(shape input)
 		(at 82.55 74.93 180)
 		(effects
@@ -1215,17 +1234,6 @@
 		)
 		(uuid "5acc937d-8eb2-4f8b-afcd-aefa7158a2f9")
 	)
-	(hierarchical_label "IO3"
-		(shape input)
-		(at 82.55 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9153c07e-b724-4b9d-8341-67576f351fef")
-	)
 	(hierarchical_label "MISO"
 		(shape input)
 		(at 82.55 67.31 180)
@@ -1237,7 +1245,7 @@
 		)
 		(uuid "9aec13e0-59b5-44f3-b989-8dc55ddc0662")
 	)
-	(hierarchical_label "IO1"
+	(hierarchical_label "NRST"
 		(shape input)
 		(at 82.55 69.85 180)
 		(effects
@@ -1259,7 +1267,7 @@
 		)
 		(uuid "df17087d-95e7-4dc2-bf8d-ca92a50feb4d")
 	)
-	(hierarchical_label "IO0"
+	(hierarchical_label "BUSY"
 		(shape input)
 		(at 82.55 72.39 180)
 		(effects
@@ -1298,7 +1306,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 107.6452 48.26 0)
 			(effects
 				(font
@@ -1645,7 +1653,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.7948 48.26 0)
 			(effects
 				(font

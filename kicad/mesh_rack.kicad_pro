@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.3,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -635,12 +635,16 @@
       "LoRa"
     ],
     [
-      "4d1c41ec-2cb3-4398-bb3d-82732e7dc7c2",
-      "Expansion 1"
+      "ff5567d7-137e-4eab-96d1-6f2a00cbcd45",
+      "GPS"
     ],
     [
-      "4ef789f0-4b95-4ee5-83a0-fc6a0ad336cb",
-      "Expansion 2"
+      "2e18755d-f1bb-4f55-a4b5-0ed7234691d1",
+      "Headers"
+    ],
+    [
+      "37feaf8c-8776-4d3a-bf43-98c3e2484426",
+      "OLED"
     ]
   ],
   "text_variables": {}
