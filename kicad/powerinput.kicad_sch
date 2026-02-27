@@ -1193,11 +1193,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:PMEG030V050EPD"
+		(symbol "Diode:SB5H90"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1211,7 +1212,7 @@
 					)
 				)
 			)
-			(property "Value" "PMEG030V050EPD"
+			(property "Value" "SB5H90"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1219,7 +1220,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:Nexperia_CFP15_SOT-1289"
+			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -1228,7 +1229,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG030V050EPD.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/88722/sb5h90.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1237,7 +1238,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "30V, 5A low Vf MEGA Schottky barrier rectifier, SOT-1289"
+			(property "Description" "90V 5A Schottky Barrier Rectifier Diode, DO-201AD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1246,7 +1247,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "forward voltage diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1255,7 +1256,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Nexperia*CFP15*SOT?1289*"
+			(property "ki_fp_filters" "D*DO?201AD*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1264,13 +1265,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "PMEG030V050EPD_0_1"
+			(symbol "SB5H90_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1282,7 +1283,7 @@
 						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1302,29 +1303,11 @@
 					)
 				)
 			)
-			(symbol "PMEG030V050EPD_1_1"
+			(symbol "SB5H90_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1342,7 +1325,6 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(hide yes)
 					(name "A"
 						(effects
 							(font
@@ -3049,12 +3031,6 @@
 		(uuid "47086d32-40bb-4215-b389-9bf95af1248b")
 	)
 	(junction
-		(at 147.32 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c8c6720-8b68-4fb3-a2d2-54a71a909917")
-	)
-	(junction
 		(at 30.48 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3067,6 +3043,12 @@
 		(uuid "5ec4043b-92ca-4187-9ae5-fd0e918e9e20")
 	)
 	(junction
+		(at 133.35 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "681ba1d9-8e46-4179-bc2a-e2f2d5985a45")
+	)
+	(junction
 		(at 50.8 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3077,6 +3059,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b95c980-5039-4a98-8ffc-27e751de041a")
+	)
+	(junction
+		(at 194.31 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "767c09a2-60e6-44aa-a8c3-b143c5b6cdb8")
 	)
 	(junction
 		(at 180.34 93.98)
@@ -3121,16 +3109,16 @@
 		(uuid "bf214232-8d9e-4ed1-be23-ce0c8cd11167")
 	)
 	(junction
-		(at 133.35 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0e9a6c9-0a17-4a16-8411-6042b9bfe9b9")
-	)
-	(junction
 		(at 182.88 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5d1e1ad-d594-446c-b023-f18ebb31a4ec")
+	)
+	(junction
+		(at 147.32 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c84cf56c-e0d8-4e14-b38a-2e79c0349cbc")
 	)
 	(junction
 		(at 36.83 101.6)
@@ -3149,12 +3137,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdec18dd-feb8-4e60-bb49-34b29ac58228")
-	)
-	(junction
-		(at 194.31 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da46c3a9-7247-404d-a0f8-67470c57f64c")
 	)
 	(junction
 		(at 157.48 143.51)
@@ -3210,7 +3192,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 73.66) (xy 139.7 73.66)
+			(xy 34.29 73.66) (xy 147.32 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3247,16 +3229,6 @@
 			(type default)
 		)
 		(uuid "072623ad-eb0d-4d95-b4d3-3268b22879d6")
-	)
-	(wire
-		(pts
-			(xy 147.32 55.88) (xy 147.32 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0800e2f5-33b5-428a-b642-9f6879efb40b")
 	)
 	(wire
 		(pts
@@ -3327,6 +3299,16 @@
 			(type default)
 		)
 		(uuid "19fa58ef-2e72-471e-acd5-45f4fa70786d")
+	)
+	(wire
+		(pts
+			(xy 195.58 92.71) (xy 195.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b69693b-0e5a-4e14-86a9-35876f9892f5")
 	)
 	(wire
 		(pts
@@ -3630,6 +3612,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 143.51) (xy 138.43 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6b8f84-5661-41d0-adef-1a34093f776a")
+	)
+	(wire
+		(pts
 			(xy 148.59 55.88) (xy 147.32 55.88)
 		)
 		(stroke
@@ -3647,6 +3639,16 @@
 			(type default)
 		)
 		(uuid "62850831-ce5b-499e-b5a8-56e0ca3ce3b9")
+	)
+	(wire
+		(pts
+			(xy 147.32 55.88) (xy 147.32 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a2a978-2add-4de0-aec8-41b0b9f04f0d")
 	)
 	(wire
 		(pts
@@ -3687,16 +3689,6 @@
 			(type default)
 		)
 		(uuid "6fe95d19-cb92-48b8-8401-54608e277850")
-	)
-	(wire
-		(pts
-			(xy 133.35 143.51) (xy 138.43 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72dff3f6-548f-4b0b-92e7-86412fd870eb")
 	)
 	(wire
 		(pts
@@ -3747,16 +3739,6 @@
 			(type default)
 		)
 		(uuid "7bef6254-c65f-475c-a302-ca7a1cfc9963")
-	)
-	(wire
-		(pts
-			(xy 139.7 73.66) (xy 139.7 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7db2e89d-57ce-4913-b934-5e3ad7292fb4")
 	)
 	(wire
 		(pts
@@ -3880,16 +3862,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 62.23) (xy 147.32 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fcb5574-6f56-4631-bbae-1f447abe39d5")
-	)
-	(wire
-		(pts
 			(xy 147.32 101.6) (xy 147.32 102.87)
 		)
 		(stroke
@@ -3900,7 +3872,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 62.23) (xy 148.59 62.23)
+			(xy 147.32 73.66) (xy 148.59 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3947,6 +3919,16 @@
 			(type default)
 		)
 		(uuid "ae79fc61-c61c-4448-9189-040b455f2f91")
+	)
+	(wire
+		(pts
+			(xy 195.58 93.98) (xy 194.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff193dd-c4b5-4cc0-ae4b-57b409829ea3")
 	)
 	(wire
 		(pts
@@ -4140,7 +4122,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 93.98) (xy 196.85 93.98)
+			(xy 195.58 92.71) (xy 196.85 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4180,7 +4162,7 @@
 	)
 	(hierarchical_label "RAW"
 		(shape output)
-		(at 148.59 62.23 0)
+		(at 148.59 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4224,7 +4206,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape output)
-		(at 196.85 93.98 0)
+		(at 196.85 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4540,79 +4522,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:PMEG030V050EPD")
-		(at 133.35 147.32 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f744af8-1276-431e-a6a8-5ed62e2c5be3")
-		(property "Reference" "D2"
-			(at 135.89 145.7324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMEG030V050EPD"
-			(at 135.89 148.2724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:Nexperia_CFP15_SOT-1289"
-			(at 128.905 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG030V050EPD.pdf"
-			(at 133.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V, 5A low Vf MEGA Schottky barrier rectifier, SOT-1289"
-			(at 133.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22ed94f6-e8d3-4b95-8aa8-9d3d834887cf")
-		)
-		(pin "1"
-			(uuid "fae8d710-3044-41dd-bc96-f564e681cfef")
-		)
-		(pin "3"
-			(uuid "a5f64d2b-9d4f-45e9-8818-af26f4a65d90")
-		)
-		(instances
-			(project "mesh_rack"
-				(path "/78341cab-a048-4351-a366-4c432cce3019/bc559bf1-5607-4eb7-a516-f3eadab6bcad"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 182.88 147.32 0)
 		(unit 1)
@@ -4908,7 +4817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 30.48 142.24 0)
 			(effects
 				(font
@@ -5802,7 +5711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 44.45 142.24 0)
 			(effects
 				(font
@@ -6976,76 +6885,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 194.31 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3aaf411-b4f6-4b98-a370-b67e482faee9")
-		(property "Reference" "C9"
-			(at 198.12 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF"
-			(at 198.12 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 195.2752 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 194.31 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aa3b6fbf-40cd-4125-8eb6-1b199f500ef0")
-		)
-		(pin "1"
-			(uuid "a3e97174-5243-411a-ba1f-40e6a3c770d0")
-		)
-		(instances
-			(project "mesh_rack"
-				(path "/78341cab-a048-4351-a366-4c432cce3019/bc559bf1-5607-4eb7-a516-f3eadab6bcad"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 88.9 102.87 0)
 		(mirror x)
 		(unit 1)
@@ -7396,6 +7235,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SB5H90")
+		(at 133.35 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2b8ec92-fb95-48b1-8b42-b6a2df8c0740")
+		(property "Reference" "D2"
+			(at 135.89 145.7324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SB5H90"
+			(at 135.89 148.2724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 128.905 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88722/sb5h90.pdf"
+			(at 133.35 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "90V 5A Schottky Barrier Rectifier Diode, DO-201AD"
+			(at 133.35 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "658eeb9c-f1ea-49ec-829c-9126699d1c93")
+		)
+		(pin "1"
+			(uuid "963c868d-48df-403d-8542-1b4d18d12be4")
+		)
+		(instances
+			(project ""
+				(path "/78341cab-a048-4351-a366-4c432cce3019/bc559bf1-5607-4eb7-a516-f3eadab6bcad"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 105.41 157.48 180)
 		(unit 1)
@@ -7609,6 +7518,76 @@
 			(project "mesh_rack"
 				(path "/78341cab-a048-4351-a366-4c432cce3019/bc559bf1-5607-4eb7-a516-f3eadab6bcad"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 194.31 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef0badb4-e075-4fb2-9d86-3e501fa25fd3")
+		(property "Reference" "C9"
+			(at 198.12 95.8849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF"
+			(at 198.12 98.4249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a50d3613-de9c-4223-8a10-8a8ab90c2b59")
+		)
+		(pin "1"
+			(uuid "a5071581-c689-4fd5-93f5-ca8d10ff8240")
+		)
+		(instances
+			(project "mesh_rack"
+				(path "/78341cab-a048-4351-a366-4c432cce3019/bc559bf1-5607-4eb7-a516-f3eadab6bcad"
+					(reference "C9")
 					(unit 1)
 				)
 			)
