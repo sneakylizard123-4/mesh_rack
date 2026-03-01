@@ -286,6 +286,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_US"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 -1.27)
+					(mid 0 -0.5572)
+					(end 2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -3085,17 +3249,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 129.54 63.5 0)
-		(mirror y)
+		(lib_id "Device:C_Polarized_US")
+		(at 162.56 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1701cd7c-2ba1-4181-87e0-ed5f970b3d34")
-		(property "Reference" "C3"
-			(at 125.73 62.2299 0)
+		(fields_autoplaced yes)
+		(uuid "15ca6011-c88a-4f50-8364-36280071c091")
+		(property "Reference" "C1"
+			(at 166.37 55.2449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,8 +3267,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 125.73 64.7699 0)
+		(property "Value" "10uF"
+			(at 166.37 57.7849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,8 +3276,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 128.5748 67.31 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 162.56 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3122,7 +3286,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 63.5 0)
+			(at 162.56 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,8 +3294,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 129.54 63.5 0)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 162.56 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,15 +3304,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1bc05cd8-f60a-4b3e-8adb-4d7e87d4ffd0")
+			(uuid "73e39052-f21a-4f52-83e5-fc1606f3476c")
 		)
 		(pin "1"
-			(uuid "5234734e-e1e7-4a75-8c57-7e73aea918d1")
+			(uuid "c581166c-91f4-4826-bb8a-4b26d93f99bd")
 		)
 		(instances
-			(project "mesh_rack"
+			(project ""
 				(path "/78341cab-a048-4351-a366-4c432cce3019/b45faa00-0ec3-4af3-8aff-d37c394daf66"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3896,76 +4060,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 162.56 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db9b4b98-ab46-4bdf-a269-ad736489572a")
-		(property "Reference" "C1"
-			(at 166.37 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 166.37 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 163.5252 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 162.56 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd4f8ce3-1c56-4bbc-8a48-a908318d6c05")
-		)
-		(pin "1"
-			(uuid "cbf22ea0-888a-4e6b-860b-994891c005a0")
-		)
-		(instances
-			(project "mesh_rack"
-				(path "/78341cab-a048-4351-a366-4c432cce3019/b45faa00-0ec3-4af3-8aff-d37c394daf66"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 100.33 71.12 180)
 		(unit 1)
@@ -4230,6 +4324,76 @@
 			(project "mesh_rack"
 				(path "/78341cab-a048-4351-a366-4c432cce3019/b45faa00-0ec3-4af3-8aff-d37c394daf66"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 129.54 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef062bb8-b9e7-4fe0-9d63-fa67bd5759a4")
+		(property "Reference" "C3"
+			(at 125.73 61.5949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 125.73 64.1349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5eebe61-89c1-45b6-a919-1c6b10292da0")
+		)
+		(pin "1"
+			(uuid "4f6c7442-698e-4e6b-a4d2-6685de6ec377")
+		)
+		(instances
+			(project "mesh_rack"
+				(path "/78341cab-a048-4351-a366-4c432cce3019/b45faa00-0ec3-4af3-8aff-d37c394daf66"
+					(reference "C3")
 					(unit 1)
 				)
 			)
