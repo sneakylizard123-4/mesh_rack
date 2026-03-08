@@ -645,6 +645,10 @@
     [
       "37feaf8c-8776-4d3a-bf43-98c3e2484426",
       "OLED"
+    ],
+    [
+      "0092626f-eed3-4ae4-b61d-f97e45cdd6dc",
+      "Sensors"
     ]
   ],
   "text_variables": {}
