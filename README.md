@@ -9,14 +9,14 @@ Schematic and pcb:
 ![PCB](images/2026-03-09-183539_hyprshot.png)
 
 ![Schematic1](images/sch/2026-03-09-185644_hyprshot.png)
-![Schematic2](images/sch/2026-03-09-185654_hyprshot.png)
-![Schematic3](images/sch/2026-03-09-185703_hyprshot.png)
-![Schematic4](images/sch/2026-03-09-185713_hyprshot.png)
-![Schematic5](images/sch/2026-03-09-185722_hyprshot.png)
-![Schematic6](images/sch/2026-03-09-185731_hyprshot.png)
-![Schematic7](images/sch/2026-03-09-185741_hyprshot.png)
-![Schematic8](images/sch/2026-03-09-185750_hyprshot.png)
-![Schematic9](images/sch/2026-03-09-185800_hyprshot.png)
+![Schematic2](images/sch/2026-03-09-185655_hyprshot.png)
+![Schematic3](images/sch/2026-03-09-185707_hyprshot.png)
+![Schematic4](images/sch/2026-03-09-185719_hyprshot.png)
+![Schematic5](images/sch/2026-03-09-185727_hyprshot.png)
+![Schematic6](images/sch/2026-03-09-185737_hyprshot.png)
+![Schematic7](images/sch/2026-03-09-185747_hyprshot.png)
+![Schematic8](images/sch/2026-03-09-185757_hyprshot.png)
+![Schematic9](images/sch/2026-03-09-185807_hyprshot.png)
 
 Cart:
 ![cart1](images/2026-03-09-184816_hyprshot.png.png)
