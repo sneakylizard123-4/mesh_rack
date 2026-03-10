@@ -1,6 +1,6 @@
-Rack mounted meshtastic node
-GPS on board
-expansion headers for sensors and displays maybe
+# About
+10" 1U Rack mounted meshtastic node with on-board GPS, LoRa, and bluetooth.
+expansion headers for sensors and displays
 sd/micro sd card support
 
 blender render:
