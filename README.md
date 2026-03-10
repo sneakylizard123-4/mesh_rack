@@ -6,15 +6,24 @@ sd/micro sd card support
 blender render:
 
 Schematic and pcb:
-![PCB](images/PCB.png)
-![Schematic1](images/Schematic1.png)
-![Schematic2](images/Schematic2.png)
-![Schematic3](images/Schematic3.png)
-![Schematic4](images/Schematic4.png)
-![Schematic5](images/Schematic5.png)
-![Schematic6](images/Schematic6.png)
-![Schematic7](images/Schematic7.png)
-![Schematic8](images/Schematic8.png)
-![Schematic9](images/Schematic9.png)
+![PCB](images/2026-03-09-183539_hyprshot.png)
+
+![Schematic1](images/sch/2026-03-09-185644_hyprshot.png)
+![Schematic2](images/sch/2026-03-09-185654_hyprshot.png)
+![Schematic3](images/sch/2026-03-09-185703_hyprshot.png)
+![Schematic4](images/sch/2026-03-09-185713_hyprshot.png)
+![Schematic5](images/sch/2026-03-09-185722_hyprshot.png)
+![Schematic6](images/sch/2026-03-09-185731_hyprshot.png)
+![Schematic7](images/sch/2026-03-09-185741_hyprshot.png)
+![Schematic8](images/sch/2026-03-09-185750_hyprshot.png)
+![Schematic9](images/sch/2026-03-09-185800_hyprshot.png)
 
 Cart:
+![cart1](images/2026-03-09-184816_hyprshot.png.png)
+![cart2](images/2026-03-09-184826_hyprshot.png.png)
+![cart3](images/2026-03-09-184838_hyprshot.png.png)
+![cart4](images/2026-03-09-184847_hyprshot.png.png)
+![cart5](images/2026-03-09-185105_hyprshot.png.png)
+![cart6](images/2026-03-09-185116_hyprshot.png.png)
+![cart7](images/2026-03-09-185126_hyprshot.png.png)
+![cart8](images/2026-03-09-185138_hyprshot.png.png)
