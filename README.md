@@ -4,6 +4,7 @@ expansion headers for sensors and displays maybe
 sd/micro sd card support
 
 blender render:
+![Blender](images/Purple.png)
 
 Schematic and pcb:
 ![PCB](images/pcb/pcb.png)
